@@ -1,0 +1,9 @@
+{
+  "firebase": "chat-react-app-pandafireball",
+  "public": "/",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "chat-react-app",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server --inline --hot --progress --colors",
+    "bundle": "NODE_ENV=production webpack --config webpack.config.production.js",
+    "lint": "eslint .",
+    "test": "mocha --compilers js:babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pandafireboll/chat-react-app.git"
+  },
+  "keywords": [
+    "react",
+    "es6",
+    "babel",
+    "webpack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/pandafireboll/chat-react-app.git",
+  "dependencies": {
+    "babel-polyfill": ">=6.3.14",
+    "babel-runtime": ">=6.3.13",
+    "es6-promise": ">=3.0.2",
+    "re-base": "^1.5.1",
+    "react": ">=0.14.0",
+    "react-dom": ">=0.14.0",
+    "whatwg-fetch": ">=0.10.1"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": ">=3.1.0",
+    "babel-core": ">=6.3.15",
+    "babel-eslint": ">=3.1.6",
+    "babel-loader": ">=6.2.0",
+    "babel-plugin-react-transform": ">=2.0.0",
+    "babel-plugin-transform-runtime": ">=6.3.13",
+    "babel-preset-es2015": ">=6.3.13",
+    "babel-preset-react": ">=6.3.13",
+    "babel-preset-stage-0": ">=6.3.13",
+    "css-loader": ">=0.20.2",
+    "eslint": ">=0.21.2",
+    "eslint-plugin-react": ">=2.3.0",
+    "exports-loader": ">=0.6.2",
+    "imports-loader": ">=0.6.5",
+    "json-loader": ">=0.5.3",
+    "mocha": ">=2.3.3",
+    "react-transform-catch-errors": ">=1.0.2",
+    "react-transform-hmr": ">=1.0.1",
+    "redbox-react": ">=1.2.2",
+    "style-loader": ">=0.13.0",
+    "webpack": ">=1.12.2",
+    "webpack-dev-server": ">=1.8.0"
+  }
+}
